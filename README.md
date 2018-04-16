@@ -58,3 +58,13 @@ salt-ssh --roster wistar test-instance-01 -r 'apt-get install python -y'
 salt-ssh --roster wistar test-instance-01 state.apply linux.dns_server
 salt-ssh --roster wistar test-instance-01 cmd.run 'uptime'
 ```
+
+### Todo Items
+
+* Currently only glob matching is supported. Regex, list, and range matching have not yet been implemented. 
+
+### Contributing
+
+Feel free to open issues and submit pull requests using github.com
+
+Send questions / comments to nembery@juniper.net
